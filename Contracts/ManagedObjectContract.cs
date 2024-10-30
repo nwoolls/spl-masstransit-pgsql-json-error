@@ -1,0 +1,3 @@
+namespace spl_masstransit_pgsql_json_error.Contracts;
+
+internal sealed record ManagedObjectContract(ManagedObjectModel Model);
