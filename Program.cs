@@ -1,10 +1,8 @@
-﻿using System.Reflection;
-using MassTransit;
+﻿using MassTransit;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using spl_masstransit_pgsql_json_error.Consumers;
-using spl_masstransit_pgsql_json_error.Contracts;
 using spl_masstransit_pgsql_json_error.Publishers;
 
 HostApplicationBuilderSettings settings = new()
